@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seda Kaya | UGC & AI Collaby Academy Partneri & Mentör</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#ff6b00',
+                            600: '#ea580c',
+                            700: '#c2410c',
+                            dark: '#0f172a',
+                            card: '#1e293b'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #ff6b00 0%, #ff8c00 50%, #ffaa00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white pb-20 md:pb-0">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 glass-card border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-500 to-amber-500 flex items-center justify-center font-heading font-bold text-xl text-white shadow-lg shadow-brand-500/20">
+                    SK
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-heading font-bold text-lg tracking-tight text-white">SEDA KAYA</span>
+                    <span class="text-xs text-brand-500 font-medium tracking-wider uppercase">UGC & AI Partner</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#hakkimda" class="hover:text-brand-500 transition-colors">Hakkımda</a>
+                <a href="#mentorluk" class="hover:text-brand-500 transition-colors">Mentörlük Kapsamı</a>
+                <a href="#akademi" class="hover:text-brand-500 transition-colors">Akademi Müfredatı</a>
+                <a href="#sss" class="hover:text-brand-500 transition-colors">SSS</a>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <a href="https://www.shopier.com/sedacollaby" target="_blank" class="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white px-6 py-3 rounded-xl font-heading font-semibold text-sm shadow-lg shadow-brand-500/25 transition-all transform hover:-translate-y-0.5 active:translate-y-0">
+                    Benimle Başla, Akademiye Katıl
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="mobileMenuBtn" class="md:hidden text-slate-300 hover:text-white text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobileMenu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-4 pb-6 space-y-3">
+            <a href="#hakkimda" class="block text-slate-300 hover:text-brand-500 py-2">Hakkımda</a>
+            <a href="#mentorluk" class="block text-slate-300 hover:text-brand-500 py-2">Mentörlük Kapsamı</a>
+            <a href="#akademi" class="block text-slate-300 hover:text-brand-500 py-2">Akademi Müfredatı</a>
+            <a href="#sss" class="block text-slate-300 hover:text-brand-500 py-2">SSS</a>
+            <a href="https://www.shopier.com/sedacollaby" target="_blank" class="block w-full text-center bg-brand-500 hover:bg-brand-600 text-white font-semibold py-3 rounded-xl mt-4">
+                Benimle Başla, Akademiye Katıl
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                
+                <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border border-brand-500/30 text-brand-500 font-medium text-xs tracking-wide uppercase">
+                        <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                        Sıfırdan Başlayanlar İçin Birebir Mentörlük
+                    </div>
+
+                    <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                        AI ve Pazarlama ile <br class="hidden sm:block"/>
+                        <span class="gradient-text">Kendi Yolunu Çiz.</span>
+                    </h1>
+
+                    <p class="text-slate-300 text-lg md:text-xl font-normal leading-relaxed max-w-2xl">
+                        33 yaşında bir kadın girişimci olarak; dijital dünyada sıfırdan kendi işini kurmak isteyenlere yol arkadaşlığı yapıyorum. UGC & AI Collaby Academy’ye benimle katıldığında, <strong class="text-white">ekstra ücret ödemeden</strong> birebir mentörlük sürecime dahil olursun.
+                    </p>
+
+                    <!-- Key Value Badges -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                        <div class="p-3 rounded-xl glass-card text-left">
+                            <span class="block text-xl font-bold text-brand-500 font-heading">$369</span>
+                            <span class="text-xs text-slate-400">Akademi Katılımı</span>
+                        </div>
+                        <div class="p-3 rounded-xl glass-card text-left">
+                            <span class="block text-xl font-bold text-emerald-400 font-heading">0 TL</span>
+                            <span class="text-xs text-slate-400">Ekstra Mentörlük Ücreti</span>
+                        </div>
+                        <div class="p-3 rounded-xl glass-card text-left col-span-2 sm:col-span-1">
+                            <span class="block text-xl font-bold text-amber-400 font-heading">1:1 Zoom</span>
+                            <span class="text-xs text-slate-400">Özel Canlı Eğitimler</span>
+                        </div>
+                    </div>
+
+                    <!-- Hero CTA -->
+                    <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="https://www.shopier.com/sedacollaby" target="_blank" class="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white text-center px-8 py-4 rounded-xl font-heading font-bold text-base shadow-xl shadow-brand-500/30 transition-all transform hover:-translate-y-1">
+                            Benimle Başla, Akademiye Katıl <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Card -->
+                <div class="md:col-span-5">
+                    <div class="relative mx-auto max-w-md">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-brand-500 to-amber-500 rounded-3xl blur opacity-30"></div>
+                        <div class="relative glass-card rounded-3xl p-6 border border-slate-700/50 space-y-6">
+                            <div class="relative h-72 rounded-2xl overflow-hidden bg-slate-800 flex items-center justify-center group">
+                                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent z-10"></div>
+                                <div class="text-center p-6 z-20">
+                                    <div class="w-16 h-16 rounded-full bg-brand-500/20 text-brand-500 flex items-center justify-center mx-auto mb-3 text-2xl border border-brand-500/40">
+                                        <i class="fa-solid fa-user-astronaut"></i>
+                                    </div>
+                                    <h3 class="font-heading font-bold text-white text-xl">Seda Kaya</h3>
+                                    <p class="text-xs text-brand-500 font-medium">Girişimci & Pazarlama Mentörü</p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between text-xs text-slate-300 p-3 rounded-lg bg-slate-800/50">
+                                    <span><i class="fa-solid fa-check text-brand-500 mr-2"></i>Canlı Zoom Eğitimleri</span>
+                                    <span class="text-emerald-400 font-semibold">Dahil</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs text-slate-300 p-3 rounded-lg bg-slate-800/50">
+                                    <span><i class="fa-solid fa-check text-brand-500 mr-2"></i>Özel VIP İletişim Grubu</span>
+                                    <span class="text-emerald-400 font-semibold">Dahil</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs text-slate-300 p-3 rounded-lg bg-slate-800/50">
+                                    <span><i class="fa-solid fa-check text-brand-500 mr-2"></i>AI Görsel Dil & Pazarlama</span>
+                                    <span class="text-emerald-400 font-semibold">Dahil</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HAKKIMDA SECTION -->
+    <section id="hakkimda" class="py-20 bg-slate-900/50 border-y border-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="inline-flex items-center gap-2 text-brand-500 font-semibold text-sm uppercase tracking-wider">
+                        <i class="fa-solid fa-compass"></i> Yol Arkadaşınız
+                    </div>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">
+                        33 Yaşında Bir Girişimci Olarak Neden Yanınızdayım?
+                    </h2>
+                    <p class="text-slate-300 leading-relaxed">
+                        Sıfırdan başlamanın, "Nereden adım atmalıyım?" karmaşasının ne demek olduğunu çok iyi biliyorum. Yapay zeka ve dijital pazarlama çağında tek başınıza öğrenmeye çalışmak zaman kaybına sebep olabilir.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        Benim odak noktam; karmaşık teoriler değil, <strong class="text-white">AI ile estetik görsel dil oluşturma</strong> ve <strong class="text-white">satış odaklı pazarlama stratejileri</strong> geliştirmektir. UGC & AI Collaby Academy müfredatını öğrenirken yalnız kalmamanız için tüm girişimcilik sürecinizde birebir destek veriyorum.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="glass-card p-6 rounded-2xl border border-slate-800 space-y-2">
+                        <i class="fa-solid fa-wand-magic-sparkles text-3xl text-brand-500 mb-2"></i>
+                        <h4 class="font-heading font-bold text-white text-lg">AI Görsel Dil</h4>
+                        <p class="text-xs text-slate-400">Markanıza özgün estetik ve görsel kimlik kurgulama.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl border border-slate-800 space-y-2">
+                        <i class="fa-solid fa-chart-line text-3xl text-amber-500 mb-2"></i>
+                        <h4 class="font-heading font-bold text-white text-lg">Pazarlama</h4>
+                        <p class="text-xs text-slate-400">İçerikleri müşteriye ve kazanca dönüştürme stratejisi.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl border border-slate-800 space-y-2">
+                        <i class="fa-solid fa-video text-3xl text-emerald-500 mb-2"></i>
+                        <h4 class="font-heading font-bold text-white text-lg">Zoom Eğitimleri</h4>
+                        <p class="text-xs text-slate-400">Uygulamalı canlı dersler ve SSS oturumları.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl border border-slate-800 space-y-2">
+                        <i class="fa-solid fa-users text-3xl text-sky-500 mb-2"></i>
+                        <h4 class="font-heading font-bold text-white text-lg">VIP Topluluk</h4>
+                        <p class="text-xs text-slate-400">Sorularınızı anlık sorabileceğiniz özel grup.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEK ÖDEME - İKİLİ DEĞER PAKETİ -->
+    <section id="mentorluk" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">
+                    369$ Yatırımla İki Güçlü Değere Aynı Anda Sahip Olun
+                </h2>
+                <p class="text-slate-400 text-base">
+                    Mentörlük hizmetim için ekstra hiçbir ücret talep etmiyorum. Akademiye benim bağlantım üzerinden katıldığınızda tüm özel desteklerim aktifleşir.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Sol Kart: Akademi Altyapısı -->
+                <div class="glass-card p-8 rounded-3xl border border-slate-800 relative">
+                    <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Resmi Akademi Erişimi</div>
+                    <h3 class="font-heading font-bold text-2xl text-white mb-4">UGC & AI Collaby Academy</h3>
+                    <ul class="space-y-4 text-sm text-slate-300 mb-8">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                            <span>Serap Şirin ve Sebahat Göktaş kuruculuğunda 8 Kapsamlı Modül.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                            <span>Skool platformu üzerinden 600+ üreticili aktif topluluk.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                            <span>MatchAI İlan ve Marka Eşleşme Platformu erişimi.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                            <span>Hazır AI botları, prompt kütüphanesi ve otomasyon araçları.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sağ Kart: Seda Kaya Mentörlüğü -->
+                <div class="glass-card p-8 rounded-3xl border-2 border-brand-500/80 relative shadow-2xl shadow-brand-500/10">
+                    <div class="absolute -top-3 right-6 bg-brand-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Ücretsiz Hediye Mentörlük
+                    </div>
+                    <div class="text-xs font-bold uppercase tracking-wider text-brand-500 mb-2">Seda Kaya Birebir Rehberliği</div>
+                    <h3 class="font-heading font-bold text-2xl text-white mb-4">1:1 Girişimcilik & Uygulama Desteği</h3>
+                    <ul class="space-y-4 text-sm text-slate-300 mb-8">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-star text-amber-400 mt-1"></i>
+                            <span><strong>Canlı Zoom Dersleri:</strong> Birlikte uygulama ve strateji geliştirme.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-star text-amber-400 mt-1"></i>
+                            <span><strong>Özel VIP Grubu:</strong> Süreç boyunca takıldığınız yerlerde anlık yanıtlar.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-star text-amber-400 mt-1"></i>
+                            <span><strong>AI Görsel Dil Kurulumu:</strong> İçeriklerinizin estetik seviyesini yükseltme.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-star text-amber-400 mt-1"></i>
+                            <span><strong>Pazarlama & Müşteri Bulma:</strong> İçerikleri satışa çevirme rehberliği.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Ortak CTA -->
+            <div class="mt-12 text-center">
+                <a href="https://www.shopier.com/sedacollaby" target="_blank" class="inline-block bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-heading font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl shadow-brand-500/30 transition-all transform hover:-translate-y-1">
+                    Benimle Başla, Akademiye Katıl (369$)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- AKADEMİ MÜFREDATI -->
+    <section id="akademi" class="py-20 bg-slate-900/40 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <h2 class="font-heading text-3xl font-bold text-white">Akademi Müfredatında Sizi Neler Bekliyor?</h2>
+                <p class="text-slate-400 text-sm">Sıfırdan ileri seviyeye kadar tasarlanmış 8 temel eğitim modülü</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-01</span>
+                    <h4 class="font-heading font-bold text-white text-base">Kapsamlı AI Eğitimi</h4>
+                    <p class="text-xs text-slate-400">Yapay zekanın temelleri ve sıfırdan kullanım senaryoları.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-02</span>
+                    <h4 class="font-heading font-bold text-white text-base">Özel AI Botları</h4>
+                    <p class="text-xs text-slate-400">Kendi asistan botlarınızı eğitme ve işleri devretme.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-03</span>
+                    <h4 class="font-heading font-bold text-white text-base">AI Araçları & Otomasyon</h4>
+                    <p class="text-xs text-slate-400">Üretim süreçlerini otomatikleştirme ve araç bağlama.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-04</span>
+                    <h4 class="font-heading font-bold text-white text-base">AI İçerik Üretimi</h4>
+                    <p class="text-xs text-slate-400">Metin, görsel, ses ve videoyu yapay zeka ile üretme.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-05</span>
+                    <h4 class="font-heading font-bold text-white text-base">Profesyonel Workflowlar</h4>
+                    <p class="text-xs text-slate-400">Tekrar edilebilir profesyonel iş akışları oluşturma.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-06</span>
+                    <h4 class="font-heading font-bold text-white text-base">UGC & Dijital Üretim</h4>
+                    <p class="text-xs text-slate-400">Markaların satın aldığı UGC içeriklerini kurgulama.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-07</span>
+                    <h4 class="font-heading font-bold text-white text-base">MatchAI Platformu</h4>
+                    <p class="text-xs text-slate-400">Marka ilanlarına başvurma ve profil oluşturma.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <span class="text-brand-500 font-mono font-bold text-xs">M-08</span>
+                    <h4 class="font-heading font-bold text-white text-base">AI Creator Ekosistemi</h4>
+                    <p class="text-xs text-slate-400">600+ üretici ile referans ve iş birliği ağı.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ŞEFFAFLIK & ETİK BEYANI -->
+    <section class="py-12 bg-slate-950">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 flex items-start gap-4">
+                <i class="fa-solid fa-shield-halved text-brand-500 text-2xl mt-1"></i>
+                <div class="space-y-1 text-xs text-slate-400 leading-relaxed">
+                    <h5 class="font-bold text-slate-200 text-sm">Şeffaflık ve Yasal Bilgilendirme</h5>
+                    <p>
+                        UGC & AI Collaby Academy ve Seda Kaya Mentörlük Programı bir iş bulma kurumu veya kolay yoldan gelir vaat eden bir yapı değildir. Eğitim programı öğrenme ve beceri geliştirme amaçlıdır. Başarı; kişinin kendi çabasına, disiplinine ve uyguladığı pazarlama stratejilerine bağlıdır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SSS SECTION -->
+    <section id="sss" class="py-20 bg-slate-900/30">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-heading text-3xl font-bold text-white">Sıkça Sorulan Sorular</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="glass-card rounded-xl border border-slate-800 overflow-hidden">
+                    <button class="faq-btn w-full p-5 text-left font-semibold text-white flex justify-between items-center">
+                        <span>Mentörlük için ekstra ücret ödeyecek miyim?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 pt-0 text-sm text-slate-400 border-t border-slate-800/50">
+                        Hayır. Shopier bağlantım üzerinden 369$ değerindeki UGC & AI Collaby Academy programına katıldığınızda, benim birebir mentörlük hizmetime otomatik ve ücretsiz olarak dahil olursunuz.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl border border-slate-800 overflow-hidden">
+                    <button class="faq-btn w-full p-5 text-left font-semibold text-white flex justify-between items-center">
+                        <span>Hiç tecrübem yok, sıfırdan başlayabilir miyim?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 pt-0 text-sm text-slate-400 border-t border-slate-800/50">
+                        Kesinlikle evet. Eğitim müfredatı ve benim mentörlük desteğim tamamen sıfırdan başlayanlar düşünülerek kurgulandı. Yapay zeka araçlarını kullanmayı ve pazarlamayı adım adım öğreneceksiniz.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl border border-slate-800 overflow-hidden">
+                    <button class="faq-btn w-full p-5 text-left font-semibold text-white flex justify-between items-center">
+                        <span>Canlı Zoom eğitimleri nasıl işliyor?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-500 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 pt-0 text-sm text-slate-400 border-t border-slate-800/50">
+                        Düzenli olarak gerçekleştirdiğimiz Zoom oturumlarında doğrudan uygulama yapıyor, takıldığınız noktaları çözüyor ve AI görsel dilinizi geliştiriyoruz.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 bg-slate-950 border-t border-slate-800/80 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 space-y-4">
+            <p>© 2026 Seda Kaya. Tüm Hakları Saklıdır. UGC & AI Collaby Academy Bağımsız Partner Sayfasıdır.</p>
+        </div>
+    </footer>
+
+    <!-- STICKY MOBILE CTA BAR -->
+    <div class="md:hidden fixed bottom-0 left-0 w-full glass-card p-3 border-t border-slate-800 z-50 flex items-center justify-between gap-3">
+        <div class="flex flex-col">
+            <span class="text-xs text-slate-400">Akademi + Mentörlük</span>
+            <span class="text-sm font-bold text-white">$369</span>
+        </div>
+        <a href="https://www.shopier.com/sedacollaby" target="_blank" class="bg-brand-500 hover:bg-brand-600 text-white font-heading font-bold text-xs px-5 py-3 rounded-xl shadow-lg shadow-brand-500/30">
+            Benimle Başla, Akademiye Katıl
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT FOR INTERACTIVITY -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // FAQ Accordion Toggle
+        const faqBtns = document.querySelectorAll('.faq-btn');
+        faqBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('i');
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+    </script>
+</body>
+</html>
